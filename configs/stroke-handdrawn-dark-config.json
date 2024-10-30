@@ -1,0 +1,10 @@
+{
+  "theme": "dark",
+  "themeVariables": {},
+  "look": "handDrawn",
+  "handDrawnSeed": 1,
+  "mindmap": {
+    "padding": 15,
+    "maxNodeWidth": 200
+  }
+}
