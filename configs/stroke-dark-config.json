@@ -1,0 +1,9 @@
+{
+  "theme": "dark",
+  "themeVariables": {},
+  "look": "classic",
+  "mindmap": {
+    "padding": 15,
+    "maxNodeWidth": 200
+  }
+}
