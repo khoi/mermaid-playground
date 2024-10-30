@@ -18,7 +18,7 @@ generate: $(OUTPUT_DIR) # Generate the SVGs
 	@for mmd in $(MMD_DIR)/*.mmd; do \
 		for json in $(CONFIG_DIR)/*.json; do \
 			echo "Generating SVG for MMD: $$mmd, Config: $$json"; \
-			mmdc -c "$$json" -i "$$mmd" -o "$(OUTPUT_DIR)/$$(basename "$$mmd" .mmd)$$(basename "$$json" .json).svg" -b transparent; \
+			mmdc -c "$$json" -i "$$mmd" -o "$(OUTPUT_DIR)/$$(basename "$$mmd" .mmd)-$$(basename "$$json" .json).svg" -b transparent; \
 		done; \
 	done
 
